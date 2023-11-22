@@ -1,0 +1,15 @@
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\bin\Debug\PR_1_task_3.exe.config
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\bin\Debug\PR_1_task_3.exe
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\bin\Debug\PR_1_task_3.pdb
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\PR_1_task_3.csproj.AssemblyReference.cache
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\MainWindow.g.cs
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\App.g.cs
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\PR_1_task_3_MarkupCompile.cache
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\PR_1_task_3_MarkupCompile.lref
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\MainWindow.baml
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\PR_1_task_3.g.resources
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\PR_1_task_3.Properties.Resources.resources
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\PR_1_task_3.csproj.GenerateResource.cache
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\PR_1_task_3.csproj.CoreCompileInputs.cache
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\PR_1_task_3.exe
+C:\Users\krt32\Desktop\PR_1\PR_1_task_3\obj\Debug\PR_1_task_3.pdb

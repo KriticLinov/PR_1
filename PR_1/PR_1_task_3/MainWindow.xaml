@@ -1,0 +1,35 @@
+﻿<Window x:Class="PR_1_task_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR_1_task_3"
+        mc:Ignorable="d"
+        Title="Task 3" Height="220" Width="300"
+        WindowStyle="ToolWindow"
+        ResizeMode="NoResize">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Нахождение значения угла в градусах" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14"/>
+        <TextBlock Text="Введите значение A:" Grid.Row="1"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+        <TextBox Name="TbA" Grid.Row="1" Grid.Column="1" Margin="15"/>
+
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
+            <TextBlock Text="Результат выполнения программы:" HorizontalAlignment="Center"/>
+            <TextBox Name="TbAnswer" Height="35" VerticalScrollBarVisibility="Visible" IsReadOnly="True" Margin="0,0,-0.4,0"/>
+        </StackPanel>
+        <Button Grid.Row="3" Grid.Column="1" Content="Выполнить" Margin="10" Click="Button_Click"/>
+    </Grid>
+</Window>

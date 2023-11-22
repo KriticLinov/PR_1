@@ -1,0 +1,38 @@
+﻿<Window x:Class="PR_1_task_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR_1_task_4"
+        mc:Ignorable="d"
+        Title="Task 3" Height="220" Width="300"
+        WindowStyle="ToolWindow"
+        ResizeMode="NoResize">
+
+    <Grid Margin="-12,0,-0.4,0.2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Нахождение значения выражения." Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" Height="26" Margin="35,0,34,24.4"/>
+        <TextBlock Text="D = (L + sin lλ') / (2 + cos λ^2) + λ - 10^λ" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12" Height="19" Margin="37,31,36,0.4"/>
+        <TextBlock Text="Введите значение l:" Grid.Row="1"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="21" Margin="20,29.6,19.2,50.2" Grid.RowSpan="2"/>
+        <TextBlock Text="Введите значение λ:"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Margin="18,9.6,18.2,20.8" Grid.Row="1"/>
+
+        <TextBox Name="Tbl" Grid.Row="1" Grid.Column="1" Margin="14.8,35,15,50" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2"/>
+        <TextBox Name="Tbλ" Grid.Column="1" Margin="14.8,10,15,25" Grid.Row="1"/>
+
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
+            <TextBlock Text="Результат выполнения программы:" HorizontalAlignment="Center"/>
+            <TextBox Name="TbAnswer" Height="35" VerticalScrollBarVisibility="Visible" IsReadOnly="True" Margin="10,0,-0.6,0"/>
+        </StackPanel>
+        <Button Grid.Row="3" Grid.Column="1" Content="Выполнить" Margin="10" Click="Button_Click"/>
+    </Grid>
+</Window>
